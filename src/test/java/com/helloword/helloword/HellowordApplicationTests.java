@@ -22,7 +22,7 @@ class HellowordApplicationTests {
 	@Test
 	void AssertHelloWorld()
 	{
-		String expected = "Hello World!";
+		String expected = "Hey man";
 		HelloWorld hx = bs.getHelloWorld();
 		
 		assertEquals(hx.toString(), expected);
